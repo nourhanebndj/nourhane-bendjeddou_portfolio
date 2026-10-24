@@ -17,12 +17,12 @@ export default function Home() {
         <div className="bar-in">
           <a href="#top" className="brand">
             <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand_dark.png`}
               alt="Nourhane Bendjeddou"
               className="brand-signature logo-light"
             />
             <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand_dark.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand.png`}
               alt="Nourhane Bendjeddou"
               className="brand-signature logo-dark"
             />
