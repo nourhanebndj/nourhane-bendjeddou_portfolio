@@ -15,13 +15,17 @@ export default function Home() {
       <Motion />
       <header className="top">
         <div className="bar-in">
-                    <a href="#top" className="brand">
-            <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand.png`}
-              alt="Nourhane Bendjeddou"
-              className="brand-signature"
-            />
-          </a>      
+            <a href="#top" className="brand">
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/${
+                  document.documentElement.dataset.theme === "light"
+                    ? "logo_brand_dark.png"
+                    : "logo_brand.png"
+                }`}
+                alt="Nourhane Bendjeddou"
+                className="brand-signature"
+              />
+            </a>   
           <nav>
             <a href="#services">{t.nav[0]}</a>
             <a href="#work">{t.nav[1]}</a>
