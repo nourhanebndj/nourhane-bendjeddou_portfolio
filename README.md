@@ -1,26 +1,33 @@
-# Portfolio Nourhane – Next.js
+# 👩‍💻 Nourhane Bendjeddou — Portfolio
 
-## Lancer en local
-```bash
-npm install
-npm run dev        # http://localhost:3000
-```
+Personal portfolio showcasing my experience in **web development, backend engineering, WordPress, and data management**.
 
-## Photo
-Télécharge ta photo actuelle et place-la ici : `public/avatar.jpg`
-(sinon la lettre « N » s'affiche à la place).
+## 👋 About Me
 
-## Déployer
-**Vercel (le plus simple)** : pousse sur GitHub → vercel.com → Import → Deploy.
+🎓 Master's degree in Massive Data Management and Analysis (GADM).
 
-**GitHub Pages** :
-```bash
-NEXT_PUBLIC_BASE_PATH=/nourhane-bendjeddou_portfolio npm run build
-# le site statique est dans le dossier /out
-```
-Puis publie le contenu de `out/` (ex. avec l'action `peaceiris/actions-gh-pages`).
-Pour un domaine perso ou Vercel, build sans la variable.
+💻 Developer passionate about building modern websites, backend applications, and digital solutions.
 
-## Modifier le contenu
-Tout le texte (projets, expériences, compétences) est dans `app/data.js`.
-Les couleurs sont dans `:root` de `app/globals.css`.
+📍 Annaba, Algeria
+
+## 🛠️ Technologies
+
+- 🌐 **Frontend:** HTML, CSS, JavaScript, React
+- ⚙️ **Backend:** PHP, Laravel, Node.js
+- 🎨 **CMS:** WordPress, Elementor, WooCommerce
+- 🗄️ **Databases:** MySQL, PostgreSQL, MongoDB
+- 📊 **Data & Programming:** Python, R, SQL
+- 📱 **Mobile Development:** Flutter
+- ☁️ **Cloud Platforms:** AWS, Google Cloud
+
+## 🚀 Projects & Experience
+
+- 🌍 Website development and customization
+- 🔌 Backend development and API integration
+- 🛒 WordPress and WooCommerce solutions
+- 📈 Data analysis and database management
+- 📲 Mobile application development
+
+## 📫 Connect
+
+💼 Explore my portfolio and discover my projects, skills, and professional experience.
