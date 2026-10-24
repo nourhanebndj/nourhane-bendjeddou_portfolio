@@ -15,8 +15,13 @@ export default function Home() {
       <Motion />
       <header className="top">
         <div className="bar-in">
-          <a href="#top" className="brand">Nourhane Bendjeddou</a>
-          <nav>
+          <a href="#top" className="brand">
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand.png`}
+              alt="Nourhane Bendjeddou"
+              className="brand-signature"
+            />
+          </a>          <nav>
             <a href="#services">{t.nav[0]}</a>
             <a href="#work">{t.nav[1]}</a>
             <a href="#skills">{t.nav[2]}</a>
@@ -43,7 +48,6 @@ export default function Home() {
             <div className="stats">
               <div><b data-count={projects.length}>0</b><span>{t.stats[0]}</span></div>
               <div><b data-count={years}>0</b><span>{t.stats[1]}</span></div>
-              <div><b data-count={19}>0</b><span>{t.stats[2]}</span></div>
             </div>
           </div>
           <div className="photo-wrap">

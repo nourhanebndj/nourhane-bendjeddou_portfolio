@@ -11,7 +11,7 @@ const en = {
   h1: "Backend, data and WordPress developer.",
   lead: "I build fast websites, web and mobile apps, and reliable data pipelines for agencies and brands in France and across the Maghreb. Based in Annaba, finishing a Master's in Data Engineering.",
   cta: ["View projects", "Get in touch"],
-  stats: ["projects delivered", "years of freelance work", "/20 bachelor's GPA"],
+  stats: ["projects delivered", "years of freelance work"],
   svcH: "What I do",
   svcP: "From a brand site to a data dashboard, I handle the build end to end.",
   workH: "Selected work",
