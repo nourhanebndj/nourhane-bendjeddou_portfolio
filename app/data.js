@@ -16,7 +16,7 @@ export const services = [
 
 export const projects = [
   { name: "KhidmaCar", cat: "Web development", url: "https://khidmacar.com/", image: "/images/works/khidmacar.png" },
-  { name: "Megusta Market", cat: "WordPress", url: "https://megustamarket.com/", image: "/images/works/megustamarket.png" },
+  { name: "Megusta Market", cat: "WordPress", url: "https://megustamarket.com/", image: "/images/works/Megustamarket.png" },
   { name: "Ayanelle", cat: "WordPress", url: "https://ayanelle.shop/", image: "/images/works/Ayanelle_store.png" },
   { name: "Nemora Dynamics", cat: "WordPress", url: "https://www.nemoradynamics.com/", image: "/images/works/nemora-Dynamics.png" },
   { name: "Endgame Dynamics", cat: "WordPress", url: "https://www.endgamedynamics.com/", image: "/images/works/endgame-Dynamics.png" },
