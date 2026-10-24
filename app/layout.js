@@ -14,7 +14,6 @@ export const metadata = {
 
 // Thème et langue appliqués avant le premier rendu (pas de flash)
 const init = `try{var d=document.documentElement,t=localStorage.getItem("theme")||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");d.dataset.theme=t;var l=localStorage.getItem("lang");if(l){d.lang=l;d.dir=l==="ar"?"rtl":"ltr"}}catch(e){document.documentElement.dataset.theme="dark"}`;
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable} ${arabic.variable}`} suppressHydrationWarning>
