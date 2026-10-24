@@ -23,21 +23,28 @@ h1,h2,h3{font-family:var(--font-d),var(--font-b),sans-serif;letter-spacing:-.025
 .bar-in{pointer-events:auto;max-width:1100px;margin:0 auto;padding:9px 10px 9px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-radius:20px;border:1px solid var(--line);background:var(--glass);backdrop-filter:blur(18px) saturate(170%);-webkit-backdrop-filter:blur(18px) saturate(170%);box-shadow:var(--shadow);transition:background .3s,box-shadow .3s}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-d);font-weight:800;letter-spacing:-.02em}
 .brand span{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--a);color:var(--on-a)}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 300px;
+}
+
 .brand-signature {
   display: block;
-  width: 120px;
+  width: 240px;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
 
-.brand {
-  display: inline-flex;
-  align-items: center;
+html[data-theme="light"] .brand-signature {
+  filter: brightness(0);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .brand-signature {
-    width: 145px;
+    width: 170px;
   }
 }
 .top nav{display:flex;gap:4px}
