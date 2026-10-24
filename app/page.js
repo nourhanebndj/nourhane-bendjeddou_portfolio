@@ -19,8 +19,8 @@ export default function Home() {
               <img
                 src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/${
                   document.documentElement.dataset.theme === "light"
-                    ? "logo_brand_dark.png"
-                    : "logo_brand.png"
+                   ? "logo_brand.png"
+                  : "logo_brand_dark.png"
                 }`}
                 alt="Nourhane Bendjeddou"
                 className="brand-signature"
