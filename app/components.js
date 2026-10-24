@@ -71,7 +71,7 @@ export function Avatar() {
   return (
     <img
       className="avatar"
-      src="/images/photo_profil.png"
+      src={`${base}/images/photo_profil.png`}
       alt="Portrait of Nourhane Bendjeddou"
       onError={() => setOk(false)}
     />
