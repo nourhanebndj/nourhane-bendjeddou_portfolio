@@ -43,7 +43,6 @@ export default function Home() {
             <div className="stats">
               <div><b data-count={projects.length}>0</b><span>{t.stats[0]}</span></div>
               <div><b data-count={years}>0</b><span>{t.stats[1]}</span></div>
-              <div><b data-count={19}>0</b><span>{t.stats[2]}</span></div>
             </div>
           </div>
           <div className="photo-wrap">
