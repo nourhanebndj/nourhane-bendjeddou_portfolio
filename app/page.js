@@ -15,7 +15,13 @@ export default function Home() {
       <Motion />
       <header className="top">
         <div className="bar-in">
-          <a href="#top" className="brand">Nourhane Bendjeddou</a>
+                    <a href="#top" className="brand">
+            <img
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo_brand.png`}
+              alt="Nourhane Bendjeddou"
+              className="brand-signature"
+            />
+          </a>      
           <nav>
             <a href="#services">{t.nav[0]}</a>
             <a href="#work">{t.nav[1]}</a>
